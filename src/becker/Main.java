@@ -11,11 +11,8 @@ import becker.robots.*;
  */
 public class Main {
     public static void main(String[] args){
-        Futbol futbol = new Futbol();
-        futbol.advance();
-        futbol.advanceRight();
-        futbol.advanceRight();
-        futbol.advanceLeft();
+        Cuartos futbol = new Cuartos();
+        futbol.movimiento();
         
     }
 }
