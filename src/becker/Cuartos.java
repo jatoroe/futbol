@@ -148,6 +148,11 @@ public void movimiento (){
             }
         }
     }
+   bats.turnLeft();
+   bats.move();
+   bats.move();
+   bats.move();
+   bats.turnLeft();
 }
 
 }
